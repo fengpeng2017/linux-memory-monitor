@@ -1,4 +1,4 @@
-# Linux系统内存加速球监控系统
+# Linux内存球集群监控系统
 
 ### 页面效果
 
@@ -54,7 +54,7 @@ e) 写内存球展示程序。
 
 ### 8.源码运行
 
-展示程序：monitor-web
+#### 展示程序：monitor-web
 
 a) 运行源码需要jdk和Maven，以及Zookeeper服务器
 
@@ -67,7 +67,7 @@ b) 修改配置。monitor-web是Web展示程序，做了简单的动态密码登
     iii.resources下的users.properties中添加一个登录用户，填自己的邮箱和名字就可以。
     
     iv.到com.jthinking.monitor.service.ServerMonitor中修改Zookeeper的连接信息，以及WebSocket地址，本地的话也是只改一下端口。pom.xml中已经配置了Tomcat7插件，可以直接用Maven 命令tomcat7:run来运行，端口也在pom.xml中配置了，默认8087。
-    
-监控程序：monitor-sentinel
+    
+#### 监控程序：monitor-sentinel
 
 a) 	monitor-sentinel是一个普通的maven quickstart项目，只需要所依赖jar包，然后		在com.jthinking.monitor.MemoryListener中修改Zookeeper服务器地址即可运行。
