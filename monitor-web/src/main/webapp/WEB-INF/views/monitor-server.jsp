@@ -45,29 +45,7 @@
                     <li class="active">
                         <a href="#">监控</a>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">设置 <b class="caret"></b>
-
-                        </a>
-                        <ul class="dropdown-menu" id="menu1">
-                            <li>
-                                <a href="${pageContext.request.contextPath}/admin/solr" target="_blank">Solr管理后台</a>
-                            </li>
-                            <li>
-                                <a href="#">SEO Settings</a>
-                            </li>
-                            <li>
-                                <a href="#">Other Link</a>
-                            </li>
-                            <li class="divider"></li>
-                            <li>
-                                <a href="#">Other Link</a>
-                            </li>
-                            <li>
-                                <a href="#">Other Link</a>
-                            </li>
-                        </ul>
-                    </li>
+                   
                 </ul>
             </div>
             <!--/.nav-collapse -->
