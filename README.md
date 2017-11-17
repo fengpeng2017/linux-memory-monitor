@@ -2,9 +2,9 @@
 
 ### 页面效果
 
-![Image text](http://image.jthinking.com/image/github-images/linux-memory-monitor/20171117130004.png)
-
 ![Image text](http://image.jthinking.com/image/github-images/linux-memory-monitor/20171117130721.png)
+
+![Image text](http://image.jthinking.com/image/github-images/linux-memory-monitor/20171117130004.png)
 
 ### 1. 需要解决的问题
 
