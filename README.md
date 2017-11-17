@@ -55,8 +55,11 @@ a) 运行源码需要jdk和Maven，以及Zookeeper服务器
 b) 修改配置。monitor-web是Web展示程序，做了简单的动态密码登录。
 
     i.到com.jthinking.monitor.util.JavaMail中修改smtp邮件服务器的各项参数。
+    
     ii.resources下的applicationVariable.properties中修改WebSocket地址，本地运行把端口换成自己的就可以。
+    
     iii.resources下的users.properties中添加一个登录用户，填自己的邮箱和名字就可以。
+    
     iv.到com.jthinking.monitor.service.ServerMonitor中修改Zookeeper的连接信息，以及WebSocket地址，本地的话也是只改一下端口。pom.xml中已经配置了Tomcat7插件，可以直接用Maven 命令tomcat7:run来运行，端口也在pom.xml中配置了，默认8087。
     
 监控程序：monitor-sentinel
