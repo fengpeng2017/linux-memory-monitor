@@ -1,5 +1,11 @@
 # Linux系统内存加速球监控系统
 
+### 页面效果
+
+![Image text](http://image.jthinking.com/image/github-images/linux-memory-monitor/20171117130004.png)
+
+![Image text](http://image.jthinking.com/image/github-images/linux-memory-monitor/20171117130721.png)
+
 ### 1. 需要解决的问题
 
 a) 由于Linux服务器通常是没有图形界面的，导致很难直观的了解服务器当前的内存占用率。
